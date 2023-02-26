@@ -1,0 +1,2 @@
+$(document).ready((function(){$(".menu__button").click((function(o){$("body").toggleClass("lock"),$(".menu__button").toggleClass("menu__button--open"),$(".navbar").toggleClass("navbar--open")}))})),$((function(){$(document).scroll((function(){var o=$(".page-header");o.toggleClass("scrolled",$(this).scrollTop()>o.height()),$(".logo--color").toggleClass("secondary-logo",$(this).scrollTop()>o.height()),$(".menu-icon").toggleClass("menu-icon--color",$(this).scrollTop()>o.height())}))}));
+//# sourceMappingURL=index.9f6390a1.js.map
