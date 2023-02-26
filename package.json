@@ -1,0 +1,30 @@
+{
+  "name": "barber-shop",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://vazhavazh.github.io/barber-shop",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /barber-shop/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vazhavazh/barber-shop.git"
+  },
+  "keywords": [],
+
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vazhavazh/barber-shop/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
